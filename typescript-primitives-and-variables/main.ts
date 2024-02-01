@@ -27,3 +27,5 @@ let never: undefined;
 console.log('value of never: ' + never);
 
 console.log('typeof never: ' + typeof never);
+
+// This comment is being added to make a pull request
