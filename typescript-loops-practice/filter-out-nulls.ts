@@ -1,10 +1,10 @@
 /* exported filterOutNulls */
 const filterOutNulls = (values: []): [] => {
-  const newArr: [] = [];
+  const newArray: [] = [];
   for (let i = 0; i < values.length; i++) {
     if (values[i] !== null) {
-      newArr.push(values[i]);
+      newArray.push(values[i]);
     }
   }
-  return newArr;
+  return newArray;
 };
