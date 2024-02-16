@@ -6,9 +6,9 @@ const numVowels = (string: string): number => {
     if (
       lowString[i] === 'a' ||
       lowString[i] === 'o' ||
-      lowString[i] === 'i' ||
+      lowString[i] === 'e' ||
       lowString[i] === 'u' ||
-      lowString[i] === 'e'
+      lowString[i] === 'i'
     ) {
       arr.push(string[i]);
     }
