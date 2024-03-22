@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.ceiling {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: beige;
+}
+
+.is-lit {
+  background-color: black;
+}
+
+.bulb {
+  border: 7rem solid red;
+  border-radius: 7rem;
+  box-shadow: 5px 5px 5px 5px rgb(167, 82, 82);
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.is-on {
+  background-color: yellow;
+  border-color: yellow;
+  box-shadow: 5px 5px 5px 5px yellow;
+}
