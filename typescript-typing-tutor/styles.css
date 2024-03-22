@@ -1,0 +1,36 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.current span {
+  transition: color 0.2s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.current span:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.first {
+  border-bottom: 3px solid;
+}
+
+.first.incorrect {
+  color: rgb(247, 7, 7);
+}
+
+.correct {
+  color: rgb(27, 205, 27);
+}
